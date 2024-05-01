@@ -1,0 +1,150 @@
+.banner {
+    height: 70vh;
+    background-color: #edefec;
+}
+
+.banner-content {
+    max-width: 800px;
+}
+
+.banner-heading,
+.best-seller-heading,
+.home-award-book-heading,
+.home-other-book-heading,
+.customer-review-heading {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 2.5px;
+    text-transform: capitalize;
+}
+
+.banner-paragraph,
+.books-card-content {
+    font-size: 20px;
+    letter-spacing: 1.25px;
+}
+
+.banner-form-control {
+    width: 100%;
+    height: 50px;
+    border: 1px solid white;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+}
+
+.banner-down-button {
+    background-color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -25px;
+    border: 5px solid #edefec;
+}
+
+.best-seller-heading,
+.customer-review-heading {
+    font-size: 35px;
+}
+
+.books-card {
+    background-color: #fefaf6;
+    width: 18rem;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.books-card img {
+    width: 100%;
+    height: 20rem;
+    border-radius: 7px;
+}
+
+.home-award-book-heading {
+    max-width: 700px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner-heading {
+        font-size: 25px;
+    }
+    .banner-paragraph {
+        font-size: 16px;
+    }
+    .banner-row {
+        flex-wrap: wrap-reverse;
+    }
+    .banner {
+        height: 90vh;
+    }
+    .banner-image {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .banner-heading {
+        font-size: 30px;
+    }
+    .banner-paragraph {
+        font-size: 18px;
+    }
+    .banner-row {
+        flex-wrap: wrap-reverse;
+    }
+    .banner {
+        height: 100vh;
+    }
+    .banner-image {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    .banner-heading {
+        font-size: 30px;
+    }
+    .banner-paragraph {
+        font-size: 18px;
+    }
+    .banner-row {
+        flex-wrap: wrap-reverse;
+    }
+    .banner {
+        height: 105vh;
+    }
+    .banner-image {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1200px) {
+    .banner-heading {
+        font-size: 35px;
+    }
+    .banner-paragraph {
+        font-size: 18px;
+    }
+
+    .banner-image {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
