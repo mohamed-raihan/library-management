@@ -8,12 +8,13 @@ function Home() {
     return (
         <div className="home">
             <Banner />
-            <div className="mt-5">
+            {/* Need to add animation */}
+            <div className="mt-5" id="Best-Seller">
                 <BestSeller />
             </div>
 
             <div className="d-flex justify-content-evenly align-items-center mb-5" style={{ backgroundColor: "#e9e6dd", height: "300px", marginTop: "10rem" }}>
-                <div>
+                <div className="home-award-book-content">
                     <h1 className="home-award-book-heading">2021 national award for fiction book list</h1>
                     <button className="btn btn-success px-5 py-2 mt-3">Shop</button>
                 </div>
@@ -30,6 +31,7 @@ function Home() {
                     <Books />
                     <Books />
                 </div>
+
             </div>
 
             <div className="customer-review my-5">
@@ -42,12 +44,18 @@ function Home() {
             </div>
 
             {/* More Books */}
-            {/* <div className="d-flex w-75 my-5">
-                <img src="" alt="" />
-                <div>
-
+            <div className="d-flex justify-content-center gap-3 align-items-center my-5 more-books" >
+                <div className="d-flex justify-content-evenly align-items-center more-books-contents" style={{ backgroundColor: "#edefec" }}>
+                    <div className="more-books-image">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/795/342/555/women-books-reading-wallpaper-preview.jpg" width="100%" alt="" />
+                    </div>
+                    <div className="d-flex justify-content-center flex-column align-items-center" >
+                        <h1 className="more-books-heading text-center mb-5">We provide you the experiance</h1>
+                        <p className="more-books-paragraph text-center">Browse the collection of our best selling and top intreseting product.</p>
+                        <button className="btn btn-success px-5 py-2 mt-3">See our products</button>
+                    </div>
                 </div>
-            </div> */}
+            </div>
 
         </div>
     )

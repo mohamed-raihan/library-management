@@ -11,7 +11,8 @@
 .best-seller-heading,
 .home-award-book-heading,
 .home-other-book-heading,
-.customer-review-heading {
+.customer-review-heading,
+.more-books-heading {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 400;
     font-style: normal;
@@ -42,6 +43,7 @@
     height: 60px;
     margin-top: -25px;
     border: 5px solid #edefec;
+    cursor: pointer;
 }
 
 .best-seller-heading,
@@ -49,11 +51,20 @@
     font-size: 35px;
 }
 
-
 .home-award-book-heading {
     max-width: 700px;
     letter-spacing: 2px;
     font-size: 40px;
+}
+
+.more-books-heading {
+    max-width: 700px;
+    font-size: 50px;
+}
+
+.more-books-paragraph {
+    font-size: 22px;
+    max-width: 400px;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -74,6 +85,26 @@
         justify-content: center;
         align-items: center;
     }
+    .home-award-book-content {
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+    .home-award-book-heading {
+        font-size: 28px;
+    }
+    .more-books {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .more-books-contents {
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    .more-books-heading {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -93,6 +124,25 @@
     .banner-image {
         justify-content: center;
         align-items: center;
+    }
+    .home-award-book-content {
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+    .home-award-book-heading {
+        font-size: 28px;
+    }
+    .more-books {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .more-books-contents {
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    .more-books-heading {
+        font-size: 40px;
+        margin-top: 25px;
     }
 }
 
@@ -114,6 +164,25 @@
         justify-content: center;
         align-items: center;
     }
+    .home-award-book-content {
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+    .home-award-book-heading {
+        font-size: 32px;
+    }
+    .more-books {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .more-books-contents {
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+    .more-books-heading {
+        font-size: 40px;
+        margin-top: 25px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -128,6 +197,14 @@
     .banner-image {
         justify-content: center;
         align-items: center;
+    }
+    .more-books {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .more-books-heading {
+        font-size: 50px;
+        margin-top: 25px;
     }
 }
 

@@ -25,8 +25,8 @@ function Banner() {
                 </div>
             </div>
             <div className="d-flex justify-content-center align-items-center">
-                <div className="banner-down-button d-flex justify-content-center align-items-center">
-                    <FontAwesomeIcon icon={faChevronDown} />
+                <div className="banner-down-button d-flex justify-content-center align-items-center" >
+                    <a href="#Best-Seller" style={{ textDecoration: "none", color: "black" }}><FontAwesomeIcon icon={faChevronDown} /></a>
                 </div>
             </div>
 
