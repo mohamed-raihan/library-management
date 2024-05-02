@@ -49,20 +49,6 @@
     font-size: 35px;
 }
 
-.books-card {
-    background-color: #fefaf6;
-    width: 18rem;
-    border-radius: 10px;
-    padding: 10px;
-    border: 1px solid black;
-    position: relative;
-}
-
-.books-card img {
-    width: 100%;
-    height: 20rem;
-    border-radius: 7px;
-}
 
 .home-award-book-heading {
     max-width: 700px;
