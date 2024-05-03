@@ -6,7 +6,7 @@ import CardContent from '@mui/material/CardContent';
 function Review() {
     return (
         <>
-            <Box sx={{ minWidth: 275 }} component={Paper} elevation={5} >
+            <Box component={Paper} elevation={5} >
                 <Card variant="outlined" style={{ width: "22rem" }} >
                     <CardContent className='p-4'>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quia quasi, dignissimos aliquam labore deleniti, assumenda error accusamus recusandae, atque rem excepturi tenetur? Dolore beatae deleniti, facilis rerum cum nulla.</p>

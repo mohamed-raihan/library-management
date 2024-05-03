@@ -1,5 +1,5 @@
 .banner {
-    height: 70vh;
+    height: 80vh;
     background-color: #edefec;
 }
 
@@ -46,6 +46,26 @@
     cursor: pointer;
 }
 
+.swiper {
+    width: 340px;
+    height: 400px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.banner-image{
+    height: 450px;
+    width: 340px;
+}
+
 .best-seller-heading,
 .customer-review-heading {
     font-size: 35px;
@@ -85,6 +105,16 @@
         justify-content: center;
         align-items: center;
     }
+    .swiper {
+        width: 340px;
+        height: 350px;
+    }
+
+    
+    .banner-image{
+        height: 550px;
+        width: 340px;
+    }
     .home-award-book-content {
         padding-left: 30px;
         padding-right: 5px;
@@ -104,7 +134,6 @@
         font-size: 40px;
         margin-top: 25px;
     }
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -183,6 +212,7 @@
         font-size: 40px;
         margin-top: 25px;
     }
+  
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

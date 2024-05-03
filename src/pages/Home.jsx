@@ -4,15 +4,16 @@ import Books from "../components/Books"
 import Review from "../components/Review"
 import "../style/Home.css"
 
+
 function Home() {
     return (
         <div className="home">
             <Banner />
             {/* Need to add animation */}
-            <div className="mt-5" id="Best-Seller">
+            {/* <div className="mt-5" id="Best-Seller">
                 <BestSeller />
-            </div>
-
+            </div> */}
+            {/* Award Winning Books Section */}
             <div className="d-flex justify-content-evenly align-items-center mb-5" style={{ backgroundColor: "#e9e6dd", height: "300px", marginTop: "10rem" }}>
                 <div className="home-award-book-content">
                     <h1 className="home-award-book-heading">2021 national award for fiction book list</h1>
@@ -22,8 +23,8 @@ function Home() {
                     <img src="https://images.indianexpress.com/2019/11/A-single-thread.jpg" height={"250px"} alt="" />
                 </div>
             </div>
-
-            <div className="home-other-book-heading">
+            {/* Other Books Section */}
+            {/* <div className="home-other-book-heading">
                 <h1 className="text-center">Other Books</h1>
                 <div className="d-flex justify-content-evenly align-items-center my-5">
                     <Books />
@@ -31,18 +32,16 @@ function Home() {
                     <Books />
                     <Books />
                 </div>
-
-            </div>
-
-            <div className="customer-review my-5">
+            </div> */}
+            {/* Reivew Section */}
+            {/* <div className="customer-review my-5">
                 <h1 className="text-center customer-review-heading">Our Customers</h1>
                 <div className="d-flex justify-content-center gap-5 mt-5 align-items-center">
                     <Review />
                     <Review />
                     <Review />
                 </div>
-            </div>
-
+            </div> */}
             {/* More Books */}
             <div className="d-flex justify-content-center gap-3 align-items-center my-5 more-books" >
                 <div className="d-flex justify-content-evenly align-items-center more-books-contents" style={{ backgroundColor: "#edefec" }}>
@@ -56,7 +55,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
