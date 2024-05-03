@@ -10,9 +10,9 @@ function Home() {
         <div className="home">
             <Banner />
             {/* Need to add animation */}
-            {/* <div className="mt-5" id="Best-Seller">
+            <div className="mt-5" id="Best-Seller">
                 <BestSeller />
-            </div> */}
+            </div>
             {/* Award Winning Books Section */}
             <div className="d-flex justify-content-evenly align-items-center mb-5" style={{ backgroundColor: "#e9e6dd", height: "300px", marginTop: "10rem" }}>
                 <div className="home-award-book-content">
@@ -24,7 +24,7 @@ function Home() {
                 </div>
             </div>
             {/* Other Books Section */}
-            {/* <div className="home-other-book-heading">
+            <div className="home-other-book-heading">
                 <h1 className="text-center">Other Books</h1>
                 <div className="d-flex justify-content-evenly align-items-center my-5">
                     <Books />
@@ -32,16 +32,16 @@ function Home() {
                     <Books />
                     <Books />
                 </div>
-            </div> */}
+            </div>
             {/* Reivew Section */}
-            {/* <div className="customer-review my-5">
+            <div className="customer-review my-5">
                 <h1 className="text-center customer-review-heading">Our Customers</h1>
                 <div className="d-flex justify-content-center gap-5 mt-5 align-items-center">
                     <Review />
                     <Review />
                     <Review />
                 </div>
-            </div> */}
+            </div>
             {/* More Books */}
             <div className="d-flex justify-content-center gap-3 align-items-center my-5 more-books" >
                 <div className="d-flex justify-content-evenly align-items-center more-books-contents" style={{ backgroundColor: "#edefec" }}>
