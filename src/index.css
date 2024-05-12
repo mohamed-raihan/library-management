@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    overflow-x: hidden;
+  }
+  
+  /*Header*/
+  
+  
+  /*Footer*/
+  .footer_info li{
+    color: rgb(167, 165, 163);
+  }
+  .footer_icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
