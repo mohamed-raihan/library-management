@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Banner from "../components/Banner"
 import BestSeller from "../components/BestSeller"
 import Books from "../components/Books"
@@ -16,7 +17,7 @@ function Home() {
             <div className="d-flex justify-content-evenly align-items-center mb-5" style={{ backgroundColor: "#e9e6dd", height: "300px", marginTop: "10rem" }}>
                 <div className="home-award-book-content">
                     <h1 className="home-award-book-heading">2021 national award for fiction book list</h1>
-                    <button className="btn btn-success px-5 py-2 mt-3">Shop</button>
+                    <Link to={'/admin'}><button className="btn btn-success px-5 py-2 mt-3">Shop</button></Link>
                 </div>
                 <div>
                     <img src="https://images.indianexpress.com/2019/11/A-single-thread.jpg" height={"250px"} alt="" />

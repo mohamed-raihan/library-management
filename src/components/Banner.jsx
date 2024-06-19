@@ -15,7 +15,7 @@ function Banner() {
                         </p>
                         <div className="d-flex mt-3 justify-content-start w-100 gap-2">
                             <input type="text" className="banner-form-control" placeholder="Search for ISBN Number" />
-                            <button className="btn btn-success px-5">Search</button>
+                            <button  className="btn btn-success px-5">Search</button>
                         </div>
                     </div>
                     {/* Need to add Tinder swiper animation */}
