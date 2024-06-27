@@ -5,6 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPencil } from '@fortawesome/free-solid-svg-icons';
+import Admin from '../pages/Admin';
 
 function CategoryManagement() {
   const [show, setShow] = useState(false);
@@ -25,6 +26,7 @@ function CategoryManagement() {
 
   return (
     <>
+    <Admin/>
       <div>
         <Row className='mt-5'>
           <Col lg={2}></Col>
