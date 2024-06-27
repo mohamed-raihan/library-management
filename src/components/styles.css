@@ -32,12 +32,13 @@
     color: var(--text-color);
   }
   
-  img {
+  /* img {
     display: block;
     max-width: 100%;
     height: auto;
   }
-  
+   */
+   
   /*=============== CARD ===============*/
   .container {
     display: grid;
